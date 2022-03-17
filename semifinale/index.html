@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Autocomplete Search Box | CodingNepal</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to url.." />
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+    <br />
+    <h5 style = "color: #fff;">Title:</h1>
+      <span style = "color: #fff;"id="titl"></span>
+    <br />
+    <h5 style = "color: #fff;">Author:</h1>
+      <span style = "color: #fff;"id="auth"></span>
+    <div>
+      <p class="error-p" style="color: red"></p>
+    </div>
+
+    <script src="./script/suggestions.js"></script>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
